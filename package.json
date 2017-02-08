@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "ws-unicode-gcs",
+  "namespace": "WebSharks.UnicodeGcs",
+  "repository": "https://github.com/websharks/unicode-gcs",
+  "description": "Unicode general categories; e.g., L, Ll, Lu, Nd, etc. This library makes it easy to build regular expressions in JavaScript that will consider all unicode scripts.",
+  "license": "GPL-3.0",
+  "author": "jaswsinc",
+  "keywords": [
+    "unicode"
+  ],
+  "main": "./cmp/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "browserify": "^14.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "shell-escape": "^0.2.0",
+    "shelljs": "^0.7.6",
+    "typescript": "^2.1.5",
+    "uglify-js": "^2.7.5"
+  }
+}
