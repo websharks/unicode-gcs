@@ -14,6 +14,6 @@
     "postbuild": "PATH=/usr/local/bin gulp"
   },
   "filesGlob": [
-    "./src/**"
+    "./src/**.ts"
   ]
 }

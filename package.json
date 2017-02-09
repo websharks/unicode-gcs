@@ -9,7 +9,7 @@
   "keywords": [
     "unicode"
   ],
-  "main": "./cmp/index.js",
+  "main": "./src/index.js",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^7.0.5",

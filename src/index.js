@@ -52,4 +52,5 @@ var WebSharks;
         };
         return gcs;
     })();
-})(WebSharks = exports.WebSharks || (exports.WebSharks = {}));
+})(WebSharks || (WebSharks = {}));
+module.exports = WebSharks.UnicodeGcs;
