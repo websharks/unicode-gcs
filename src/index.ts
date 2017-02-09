@@ -116,8 +116,8 @@ namespace WebSharks {
       h: ' \\t\\ufeff\\u00a0\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000',
       s: '\\s', // Both horizontal and vertical whitespace.
 
-      scWordChars: gcs.L + gcs.M + gcs.N + gcs.Pd + gcs.Pc + '\\-',
-      aceWordChars: gcs.L + gcs.Mn + gcs.Mc + gcs.Nd + gcs.Pc + '\\$_',
+      scWordChars: gcs.L + gcs.M + gcs.N + gcs.Pd + gcs.Pc + '\'',
+      aceWordChars: gcs.L + gcs.Mn + gcs.Mc + gcs.Nd + gcs.Pc + '\\$',
       atomNonWordChars: '\\\\\\/\\(\\)"\'\\:,\\.;<>~\\!@#\\$%\\^&\\*\\|\\+\\=\\[\\]\\{\\}`\\?\\-…',
     };
     return gcs;
