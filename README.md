@@ -21,10 +21,10 @@ const u = require('ws-unicode-gcs');
 
 #### CDN Acquisition
 
-_**Tip:** To use a specific release, replace `/master` in this URL with `/[release tag]`_
+_**Tip:** To use a specific release, replace `/v1.0.2` in this URL with `/[tag]`_
 
 ```html
-<script src="https://cdn.rawgit.com/websharks/unicode-gcs/master/dist/index.min.js"></script>
+<script src="https://cdn.rawgit.com/websharks/unicode-gcs/v1.0.2/dist/index.min.js"></script>
 <script>var u = WebSharks.UnicodeGcs;</script>
 ```
 
